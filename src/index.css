@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    @apply text-silver-glitter;
+  }
+
+  body {
+    @apply m-0 flex items-center;
+  }
+
+  button {
+    @apply rounded-lg text-base font-medium cursor-pointer hover:bg-beyond-blue/80 p-2 px-5 m-2 bg-beyond-blue capitalize;
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+  }
+}
+
+@theme {
+  --color-beyond-blue: #7033ff;
+  --color-mckenzie: #5133be;
+  --color-blackcurrant: #332e3c;
+  --color-silver-glitter: #ceccd6;
+  --color-activated-charcoal: #24202d;
+}
+
+/* 
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
