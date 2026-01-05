@@ -4,7 +4,6 @@ import CustomerFeedback from "./Component/CustomerFeedback";
 import HeroSection from "./Component/HeroSection";
 import NavigationBar from "./Component/NavigationBar";
 import Services from "./Component/Services";
-import StatsSection from "./Component/StatsSection";
 
 function App() {
   return (
