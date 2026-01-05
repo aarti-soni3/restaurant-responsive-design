@@ -1,5 +1,5 @@
 import "./App.css";
-import AboutUs from "./Component/AboutUS";
+import AboutUs from "./Component/AboutUs";
 import CustomerFeedback from "./Component/CustomerFeedback";
 import HeroSection from "./Component/HeroSection";
 import NavigationBar from "./Component/NavigationBar";
