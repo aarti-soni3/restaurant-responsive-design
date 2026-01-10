@@ -1,12 +1,20 @@
 @import "tailwindcss";
 
 @layer base {
+  /* html {
+    @apply w-full overflow-x-hidden;
+  } */
+
   :root {
     @apply text-silver-glitter;
   }
 
-  body {
-    @apply m-0 flex items-center;
+  /* body {
+    @apply m-0 w-full overflow-x-hidden;
+  } */
+
+  #root {
+    @apply w-full;
   }
 
   button {
@@ -16,6 +24,18 @@
   h1 {
     @apply text-4xl font-bold;
   }
+
+  h2 {
+    @apply text-3xl font-bold;
+  }
+
+  h3 {
+    @apply text-2xl font-bold;
+  }
+
+   h4 {
+    @apply text-xl font-bold;
+  }
 }
 
 @theme {
@@ -24,6 +44,8 @@
   --color-blackcurrant: #332e3c;
   --color-silver-glitter: #ceccd6;
   --color-activated-charcoal: #24202d;
+  --color-matte-purple: #372f48;
+  --color-eggplant: #3d2e3c;
 }
 
 /* 

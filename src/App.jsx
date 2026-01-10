@@ -3,7 +3,10 @@ import AboutUs from "./Component/AboutUs";
 import CustomerFeedback from "./Component/CustomerFeedback";
 import HeroSection from "./Component/HeroSection";
 import NavigationBar from "./Component/NavigationBar";
+import OrderNowBanner from "./Component/OrderNowBanner";
+import ReserveTable from "./Component/ReserveTable";
 import Services from "./Component/Services";
+import TeamSection from "./Component/TeamSection";
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
         <HeroSection />
         <AboutUs />
         <Services />
-        <CustomerFeedback />  
+        <CustomerFeedback /> 
+        <OrderNowBanner/> 
+        <TeamSection/>
+        <ReserveTable/>
       </main>
     </>
   );

@@ -29,8 +29,10 @@ export default function Services() {
     <>
       <section className="flex flex-col gap-12 items-center bg-blackcurrant py-12 md:py-20 px-4 overflow-x-hidden">
         <div className="flex flex-col gap-3 text-center w-full max-w-5xl">
-          <h1 className="capitalize text-2xl sm:text-4xl" >crafting moments, serving you</h1>
-          <p className="w-sm sm:w-xl md:w-2xl xl:w-4xl self-center">
+          <h1 className="capitalize text-2xl sm:text-4xl">
+            crafting moments, serving you
+          </h1>
+          <p className="sm:w-xl md:w-2xl xl:w-4xl self-center">
             From unforgettable flavors to seamless service, we’re here to make
             every meal feel special. Whether you dine in, take out, or order
             online we’ve got your cravings covered.

@@ -24,15 +24,17 @@ export default function CustomerFeedback() {
 
   return (
     <>
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 p-15 bg-activated-charcoal">
-        <div className="col-span-1 flex flex-col w-md gap-4">
-          <h1 className="font-bold text-3xl ml-4 md:ml-0 md:text-4xl ">Customers Feedback</h1>
-          <p className="text-md md:text-xl w-xs md:w-sm text-center md:text-left">
+      <section className="flex flex-col items-center gap-10 p-8 md:p-15 bg-activated-charcoal overflow-x-hidden">
+        <div className="flex flex-col w-xs md:w-md gap-4">
+          <h1 className="font-bold text-2xl sm:text-3xl text-center md:ml-0 md:text-4xl">
+            Customers Feedback
+          </h1>
+          <p className="text-md md:text-xl text-center">
             From career changes to dream jobs, here's how FlyonUI helped.
           </p>
         </div>
 
-        <div className="col-span-2 grid grid-cols-1 gap-4 md:gap-0 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {customerData.map((data) => {
             return (
               <CustomerFeedbackCard

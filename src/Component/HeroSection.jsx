@@ -2,7 +2,7 @@ import { MoveRight } from "lucide-react";
 export default function HeroSection() {
   return (
     <>
-      <section className="bg-blackcurrant md:w-screen flex flex-col bg-[url(/free-layer-blur.png)] bg-contain bg-center text-center overflow-x-hidden">
+      <section className="bg-blackcurrant w-full flex flex-col bg-[url(/free-layer-blur.png)] bg-contain bg-center text-center overflow-x-hidden">
         <div className="w-full max-w-2xl flex flex-col px-4 md:px-8 mx-auto mt-12 md:mt-20 py-12 md:py-20 gap-6 items-center">
           <span className="bg-gray-900/30 place-self-center rounded-full border border-gray-500/40 text-sm md:text-md px-4 py-1 w-fit">
             <p className="text-zinc-300 text-xs md:text-sm">
@@ -27,7 +27,7 @@ export default function HeroSection() {
         </div>
 
         <img
-          className="z-5 w-full max-w-4xl h-40  object-cover px-4"
+          className="z-5 w-full h-50 object-cover object-top"
           src="/dishes-hero.png"
           loading="lazy"
         />

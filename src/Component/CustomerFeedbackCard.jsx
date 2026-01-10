@@ -7,7 +7,7 @@ export default function CustomerFeedbackCard({
 }) {
   return (
     <>
-      <section className="flex flex-col gap-3 p-6 w-xs lg:w-md xl:w-lg bg-blackcurrant border rounded-xl border-stone-200/40 hover:border-beyond-blue">
+      <section className="flex flex-col gap-3 p-6 w-3xs sm:w-xs lg:w-md xl:w-lg place-self-center bg-blackcurrant border rounded-xl border-stone-200/40 hover:border-beyond-blue">
         <div className="flex gap-3">
           <img
             src={imagePath}
@@ -39,7 +39,7 @@ export default function CustomerFeedbackCard({
             );
           })}
         </div>
-        <div>{description}</div>
+        <div className="text-sm md:text-md">{description}</div>
       </section>
     </>
   );
