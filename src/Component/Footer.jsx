@@ -56,10 +56,10 @@ export default function Footer() {
 
   return (
     <>
-      <section className="flex flex-col lg:flex-row justify-between bg-blackcurrant p-8 gap-8">
+      <section className="flex flex-col md:flex-row justify-between bg-blackcurrant p-8 gap-8">
         <div className="flex flex-col gap-4 flex-0">
           <h1>Restaurant</h1>
-          <p className="w-3xs sm:w-md lg:w-lg">
+          <p className="w-3xs lg:w-lg">
             At Our Restaurant, we're passionate about bringing authentic flavors
             and unforgettable experiences to our community. Join us for fresh,
             handcrafted dishes in a warm, welcoming atmosphere, right in the
@@ -69,10 +69,12 @@ export default function Footer() {
         </div>
         <div>
           <h2 className="mb-6">Pages</h2>
-          <p className="font-bold text-sm">About</p>
-          <p className="font-bold text-sm">Service</p>
-          <p className="font-bold text-sm">Team</p>
-          <p className="font-bold text-sm">FAQ</p>
+          <div className="flex flex-col [&_a]:hover:text-beyond-blue">
+            <a className="font-bold text-sm">About</a>
+            <a className="font-bold text-sm">Service</a>
+            <a className="font-bold text-sm">Team</a>
+            <a className="font-bold text-sm">FAQ</a>
+          </div>
         </div>
         <div>
           <h2 className="mb-6">Contact</h2>
