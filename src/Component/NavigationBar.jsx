@@ -12,7 +12,7 @@ export default function NavigationBar() {
         <section className="flex items-center gap-2">
           <img
             className="object-contain"
-            src="/restaurant-logo.png"
+            src="/favicon.ico"
             height={45}
             width={45}
           />
